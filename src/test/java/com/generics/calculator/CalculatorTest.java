@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class CalculatorTest {
 
     @InjectMocks
-    Calculator calculator;
+    private Calculator calculator;
 
     @Test
     public void additionTest() {

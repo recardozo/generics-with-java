@@ -15,10 +15,10 @@ import static org.assertj.core.api.Assertions.assertThat;
 class GenericMethodsTest {
 
     @InjectMocks
-    GenericMethods genericMethods;
-    List<Integer> integerList;
-    List<String> stringList;
-    List<String> stringListWithNumbers;
+    private GenericMethods genericMethods;
+    private List<Integer> integerList;
+    private List<String> stringList;
+    private List<String> stringListWithNumbers;
 
     @BeforeEach
     void setUp() {

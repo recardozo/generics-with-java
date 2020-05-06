@@ -14,7 +14,7 @@ import java.util.LinkedList;
 class WildCardSimpleExampleTest {
 
     @InjectMocks
-    WildCardSimpleExample wildCardSimpleExample;
+    private WildCardSimpleExample wildCardSimpleExample;
 
     @Test
     void printCollectionWithArray() {
@@ -36,5 +36,4 @@ class WildCardSimpleExampleTest {
         HashSetcollection.add("HashSet Collection");
         wildCardSimpleExample.printCollection(HashSetcollection);
     }
-
 }
